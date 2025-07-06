@@ -26,6 +26,7 @@ model JobMelaBeneficiary {
   tenth_board               String?  @db.VarChar(100)
   twelfth_board             String?  @db.VarChar(100)
   education_stream          String?  @db.VarChar(100)
+  work_experience           String?  @db.Text
   other_stream              String?  @db.Text
   areas_of_interest         String?  @db.Text
   specific_skills           String?  @db.Text

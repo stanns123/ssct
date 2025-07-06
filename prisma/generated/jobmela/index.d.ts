@@ -899,6 +899,7 @@ export namespace Prisma {
     tenth_board: string | null
     twelfth_board: string | null
     education_stream: string | null
+    work_experience: string | null
     other_stream: string | null
     areas_of_interest: string | null
     specific_skills: string | null
@@ -917,6 +918,16 @@ export namespace Prisma {
     has_diploma: boolean | null
     other_iti_trade: string | null
     other_diploma_stream: string | null
+    has_experience: boolean | null
+    currently_working: boolean | null
+    experience_company_name: string | null
+    experience_years: string | null
+    current_company_name: string | null
+    current_year_of_joining: string | null
+    has_appointment_letter: boolean | null
+    has_salary_slip: boolean | null
+    has_relieving_letter: boolean | null
+    all_data_verified: boolean | null
     created_at: Date | null
   }
 
@@ -938,6 +949,7 @@ export namespace Prisma {
     tenth_board: string | null
     twelfth_board: string | null
     education_stream: string | null
+    work_experience: string | null
     other_stream: string | null
     areas_of_interest: string | null
     specific_skills: string | null
@@ -956,6 +968,16 @@ export namespace Prisma {
     has_diploma: boolean | null
     other_iti_trade: string | null
     other_diploma_stream: string | null
+    has_experience: boolean | null
+    currently_working: boolean | null
+    experience_company_name: string | null
+    experience_years: string | null
+    current_company_name: string | null
+    current_year_of_joining: string | null
+    has_appointment_letter: boolean | null
+    has_salary_slip: boolean | null
+    has_relieving_letter: boolean | null
+    all_data_verified: boolean | null
     created_at: Date | null
   }
 
@@ -977,6 +999,7 @@ export namespace Prisma {
     tenth_board: number
     twelfth_board: number
     education_stream: number
+    work_experience: number
     other_stream: number
     areas_of_interest: number
     specific_skills: number
@@ -995,6 +1018,16 @@ export namespace Prisma {
     has_diploma: number
     other_iti_trade: number
     other_diploma_stream: number
+    has_experience: number
+    currently_working: number
+    experience_company_name: number
+    experience_years: number
+    current_company_name: number
+    current_year_of_joining: number
+    has_appointment_letter: number
+    has_salary_slip: number
+    has_relieving_letter: number
+    all_data_verified: number
     created_at: number
     _all: number
   }
@@ -1026,6 +1059,7 @@ export namespace Prisma {
     tenth_board?: true
     twelfth_board?: true
     education_stream?: true
+    work_experience?: true
     other_stream?: true
     areas_of_interest?: true
     specific_skills?: true
@@ -1044,6 +1078,16 @@ export namespace Prisma {
     has_diploma?: true
     other_iti_trade?: true
     other_diploma_stream?: true
+    has_experience?: true
+    currently_working?: true
+    experience_company_name?: true
+    experience_years?: true
+    current_company_name?: true
+    current_year_of_joining?: true
+    has_appointment_letter?: true
+    has_salary_slip?: true
+    has_relieving_letter?: true
+    all_data_verified?: true
     created_at?: true
   }
 
@@ -1065,6 +1109,7 @@ export namespace Prisma {
     tenth_board?: true
     twelfth_board?: true
     education_stream?: true
+    work_experience?: true
     other_stream?: true
     areas_of_interest?: true
     specific_skills?: true
@@ -1083,6 +1128,16 @@ export namespace Prisma {
     has_diploma?: true
     other_iti_trade?: true
     other_diploma_stream?: true
+    has_experience?: true
+    currently_working?: true
+    experience_company_name?: true
+    experience_years?: true
+    current_company_name?: true
+    current_year_of_joining?: true
+    has_appointment_letter?: true
+    has_salary_slip?: true
+    has_relieving_letter?: true
+    all_data_verified?: true
     created_at?: true
   }
 
@@ -1104,6 +1159,7 @@ export namespace Prisma {
     tenth_board?: true
     twelfth_board?: true
     education_stream?: true
+    work_experience?: true
     other_stream?: true
     areas_of_interest?: true
     specific_skills?: true
@@ -1122,6 +1178,16 @@ export namespace Prisma {
     has_diploma?: true
     other_iti_trade?: true
     other_diploma_stream?: true
+    has_experience?: true
+    currently_working?: true
+    experience_company_name?: true
+    experience_years?: true
+    current_company_name?: true
+    current_year_of_joining?: true
+    has_appointment_letter?: true
+    has_salary_slip?: true
+    has_relieving_letter?: true
+    all_data_verified?: true
     created_at?: true
     _all?: true
   }
@@ -1230,6 +1296,7 @@ export namespace Prisma {
     tenth_board: string | null
     twelfth_board: string | null
     education_stream: string | null
+    work_experience: string | null
     other_stream: string | null
     areas_of_interest: string | null
     specific_skills: string | null
@@ -1248,6 +1315,16 @@ export namespace Prisma {
     has_diploma: boolean | null
     other_iti_trade: string | null
     other_diploma_stream: string | null
+    has_experience: boolean | null
+    currently_working: boolean | null
+    experience_company_name: string | null
+    experience_years: string | null
+    current_company_name: string | null
+    current_year_of_joining: string | null
+    has_appointment_letter: boolean | null
+    has_salary_slip: boolean | null
+    has_relieving_letter: boolean | null
+    all_data_verified: boolean | null
     created_at: Date
     _count: JobMelaBeneficiaryCountAggregateOutputType | null
     _avg: JobMelaBeneficiaryAvgAggregateOutputType | null
@@ -1288,6 +1365,7 @@ export namespace Prisma {
     tenth_board?: boolean
     twelfth_board?: boolean
     education_stream?: boolean
+    work_experience?: boolean
     other_stream?: boolean
     areas_of_interest?: boolean
     specific_skills?: boolean
@@ -1306,6 +1384,16 @@ export namespace Prisma {
     has_diploma?: boolean
     other_iti_trade?: boolean
     other_diploma_stream?: boolean
+    has_experience?: boolean
+    currently_working?: boolean
+    experience_company_name?: boolean
+    experience_years?: boolean
+    current_company_name?: boolean
+    current_year_of_joining?: boolean
+    has_appointment_letter?: boolean
+    has_salary_slip?: boolean
+    has_relieving_letter?: boolean
+    all_data_verified?: boolean
     created_at?: boolean
   }, ExtArgs["result"]["jobMelaBeneficiary"]>
 
@@ -1329,6 +1417,7 @@ export namespace Prisma {
     tenth_board?: boolean
     twelfth_board?: boolean
     education_stream?: boolean
+    work_experience?: boolean
     other_stream?: boolean
     areas_of_interest?: boolean
     specific_skills?: boolean
@@ -1347,10 +1436,20 @@ export namespace Prisma {
     has_diploma?: boolean
     other_iti_trade?: boolean
     other_diploma_stream?: boolean
+    has_experience?: boolean
+    currently_working?: boolean
+    experience_company_name?: boolean
+    experience_years?: boolean
+    current_company_name?: boolean
+    current_year_of_joining?: boolean
+    has_appointment_letter?: boolean
+    has_salary_slip?: boolean
+    has_relieving_letter?: boolean
+    all_data_verified?: boolean
     created_at?: boolean
   }
 
-  export type JobMelaBeneficiaryOmit<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetOmit<"id" | "registration_number" | "full_name" | "dob" | "gender" | "mobile_number" | "email_address" | "current_address" | "pincode" | "highest_qualification" | "other_qualification" | "year_of_passing" | "expected_year_of_completion" | "overall_percentage" | "tenth_board" | "twelfth_board" | "education_stream" | "other_stream" | "areas_of_interest" | "specific_skills" | "currently_enrolled" | "completed_skill_program" | "preferred_sectors" | "preferred_location" | "open_to_out_of_state" | "payment_confired" | "payment_waiver_reason" | "status" | "prior_experience" | "has_resume" | "additional_info" | "has_iti" | "has_diploma" | "other_iti_trade" | "other_diploma_stream" | "created_at", ExtArgs["result"]["jobMelaBeneficiary"]>
+  export type JobMelaBeneficiaryOmit<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetOmit<"id" | "registration_number" | "full_name" | "dob" | "gender" | "mobile_number" | "email_address" | "current_address" | "pincode" | "highest_qualification" | "other_qualification" | "year_of_passing" | "expected_year_of_completion" | "overall_percentage" | "tenth_board" | "twelfth_board" | "education_stream" | "work_experience" | "other_stream" | "areas_of_interest" | "specific_skills" | "currently_enrolled" | "completed_skill_program" | "preferred_sectors" | "preferred_location" | "open_to_out_of_state" | "payment_confired" | "payment_waiver_reason" | "status" | "prior_experience" | "has_resume" | "additional_info" | "has_iti" | "has_diploma" | "other_iti_trade" | "other_diploma_stream" | "has_experience" | "currently_working" | "experience_company_name" | "experience_years" | "current_company_name" | "current_year_of_joining" | "has_appointment_letter" | "has_salary_slip" | "has_relieving_letter" | "all_data_verified" | "created_at", ExtArgs["result"]["jobMelaBeneficiary"]>
 
   export type $JobMelaBeneficiaryPayload<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
     name: "JobMelaBeneficiary"
@@ -1373,6 +1472,7 @@ export namespace Prisma {
       tenth_board: string | null
       twelfth_board: string | null
       education_stream: string | null
+      work_experience: string | null
       other_stream: string | null
       areas_of_interest: string | null
       specific_skills: string | null
@@ -1391,6 +1491,16 @@ export namespace Prisma {
       has_diploma: boolean | null
       other_iti_trade: string | null
       other_diploma_stream: string | null
+      has_experience: boolean | null
+      currently_working: boolean | null
+      experience_company_name: string | null
+      experience_years: string | null
+      current_company_name: string | null
+      current_year_of_joining: string | null
+      has_appointment_letter: boolean | null
+      has_salary_slip: boolean | null
+      has_relieving_letter: boolean | null
+      all_data_verified: boolean | null
       created_at: Date
     }, ExtArgs["result"]["jobMelaBeneficiary"]>
     composites: {}
@@ -1778,6 +1888,7 @@ export namespace Prisma {
     readonly tenth_board: FieldRef<"JobMelaBeneficiary", 'String'>
     readonly twelfth_board: FieldRef<"JobMelaBeneficiary", 'String'>
     readonly education_stream: FieldRef<"JobMelaBeneficiary", 'String'>
+    readonly work_experience: FieldRef<"JobMelaBeneficiary", 'String'>
     readonly other_stream: FieldRef<"JobMelaBeneficiary", 'String'>
     readonly areas_of_interest: FieldRef<"JobMelaBeneficiary", 'String'>
     readonly specific_skills: FieldRef<"JobMelaBeneficiary", 'String'>
@@ -1796,6 +1907,16 @@ export namespace Prisma {
     readonly has_diploma: FieldRef<"JobMelaBeneficiary", 'Boolean'>
     readonly other_iti_trade: FieldRef<"JobMelaBeneficiary", 'String'>
     readonly other_diploma_stream: FieldRef<"JobMelaBeneficiary", 'String'>
+    readonly has_experience: FieldRef<"JobMelaBeneficiary", 'Boolean'>
+    readonly currently_working: FieldRef<"JobMelaBeneficiary", 'Boolean'>
+    readonly experience_company_name: FieldRef<"JobMelaBeneficiary", 'String'>
+    readonly experience_years: FieldRef<"JobMelaBeneficiary", 'String'>
+    readonly current_company_name: FieldRef<"JobMelaBeneficiary", 'String'>
+    readonly current_year_of_joining: FieldRef<"JobMelaBeneficiary", 'String'>
+    readonly has_appointment_letter: FieldRef<"JobMelaBeneficiary", 'Boolean'>
+    readonly has_salary_slip: FieldRef<"JobMelaBeneficiary", 'Boolean'>
+    readonly has_relieving_letter: FieldRef<"JobMelaBeneficiary", 'Boolean'>
+    readonly all_data_verified: FieldRef<"JobMelaBeneficiary", 'Boolean'>
     readonly created_at: FieldRef<"JobMelaBeneficiary", 'DateTime'>
   }
     
@@ -2150,6 +2271,7 @@ export namespace Prisma {
     tenth_board: 'tenth_board',
     twelfth_board: 'twelfth_board',
     education_stream: 'education_stream',
+    work_experience: 'work_experience',
     other_stream: 'other_stream',
     areas_of_interest: 'areas_of_interest',
     specific_skills: 'specific_skills',
@@ -2168,6 +2290,16 @@ export namespace Prisma {
     has_diploma: 'has_diploma',
     other_iti_trade: 'other_iti_trade',
     other_diploma_stream: 'other_diploma_stream',
+    has_experience: 'has_experience',
+    currently_working: 'currently_working',
+    experience_company_name: 'experience_company_name',
+    experience_years: 'experience_years',
+    current_company_name: 'current_company_name',
+    current_year_of_joining: 'current_year_of_joining',
+    has_appointment_letter: 'has_appointment_letter',
+    has_salary_slip: 'has_salary_slip',
+    has_relieving_letter: 'has_relieving_letter',
+    all_data_verified: 'all_data_verified',
     created_at: 'created_at'
   };
 
@@ -2206,6 +2338,7 @@ export namespace Prisma {
     tenth_board: 'tenth_board',
     twelfth_board: 'twelfth_board',
     education_stream: 'education_stream',
+    work_experience: 'work_experience',
     other_stream: 'other_stream',
     areas_of_interest: 'areas_of_interest',
     specific_skills: 'specific_skills',
@@ -2217,7 +2350,11 @@ export namespace Prisma {
     prior_experience: 'prior_experience',
     additional_info: 'additional_info',
     other_iti_trade: 'other_iti_trade',
-    other_diploma_stream: 'other_diploma_stream'
+    other_diploma_stream: 'other_diploma_stream',
+    experience_company_name: 'experience_company_name',
+    experience_years: 'experience_years',
+    current_company_name: 'current_company_name',
+    current_year_of_joining: 'current_year_of_joining'
   };
 
   export type JobMelaBeneficiaryOrderByRelevanceFieldEnum = (typeof JobMelaBeneficiaryOrderByRelevanceFieldEnum)[keyof typeof JobMelaBeneficiaryOrderByRelevanceFieldEnum]
@@ -2287,6 +2424,7 @@ export namespace Prisma {
     tenth_board?: StringNullableFilter<"JobMelaBeneficiary"> | string | null
     twelfth_board?: StringNullableFilter<"JobMelaBeneficiary"> | string | null
     education_stream?: StringNullableFilter<"JobMelaBeneficiary"> | string | null
+    work_experience?: StringNullableFilter<"JobMelaBeneficiary"> | string | null
     other_stream?: StringNullableFilter<"JobMelaBeneficiary"> | string | null
     areas_of_interest?: StringNullableFilter<"JobMelaBeneficiary"> | string | null
     specific_skills?: StringNullableFilter<"JobMelaBeneficiary"> | string | null
@@ -2305,6 +2443,16 @@ export namespace Prisma {
     has_diploma?: BoolNullableFilter<"JobMelaBeneficiary"> | boolean | null
     other_iti_trade?: StringNullableFilter<"JobMelaBeneficiary"> | string | null
     other_diploma_stream?: StringNullableFilter<"JobMelaBeneficiary"> | string | null
+    has_experience?: BoolNullableFilter<"JobMelaBeneficiary"> | boolean | null
+    currently_working?: BoolNullableFilter<"JobMelaBeneficiary"> | boolean | null
+    experience_company_name?: StringNullableFilter<"JobMelaBeneficiary"> | string | null
+    experience_years?: StringNullableFilter<"JobMelaBeneficiary"> | string | null
+    current_company_name?: StringNullableFilter<"JobMelaBeneficiary"> | string | null
+    current_year_of_joining?: StringNullableFilter<"JobMelaBeneficiary"> | string | null
+    has_appointment_letter?: BoolNullableFilter<"JobMelaBeneficiary"> | boolean | null
+    has_salary_slip?: BoolNullableFilter<"JobMelaBeneficiary"> | boolean | null
+    has_relieving_letter?: BoolNullableFilter<"JobMelaBeneficiary"> | boolean | null
+    all_data_verified?: BoolNullableFilter<"JobMelaBeneficiary"> | boolean | null
     created_at?: DateTimeFilter<"JobMelaBeneficiary"> | Date | string
   }
 
@@ -2326,6 +2474,7 @@ export namespace Prisma {
     tenth_board?: SortOrderInput | SortOrder
     twelfth_board?: SortOrderInput | SortOrder
     education_stream?: SortOrderInput | SortOrder
+    work_experience?: SortOrderInput | SortOrder
     other_stream?: SortOrderInput | SortOrder
     areas_of_interest?: SortOrderInput | SortOrder
     specific_skills?: SortOrderInput | SortOrder
@@ -2344,6 +2493,16 @@ export namespace Prisma {
     has_diploma?: SortOrderInput | SortOrder
     other_iti_trade?: SortOrderInput | SortOrder
     other_diploma_stream?: SortOrderInput | SortOrder
+    has_experience?: SortOrderInput | SortOrder
+    currently_working?: SortOrderInput | SortOrder
+    experience_company_name?: SortOrderInput | SortOrder
+    experience_years?: SortOrderInput | SortOrder
+    current_company_name?: SortOrderInput | SortOrder
+    current_year_of_joining?: SortOrderInput | SortOrder
+    has_appointment_letter?: SortOrderInput | SortOrder
+    has_salary_slip?: SortOrderInput | SortOrder
+    has_relieving_letter?: SortOrderInput | SortOrder
+    all_data_verified?: SortOrderInput | SortOrder
     created_at?: SortOrder
     _relevance?: JobMelaBeneficiaryOrderByRelevanceInput
   }
@@ -2369,6 +2528,7 @@ export namespace Prisma {
     tenth_board?: StringNullableFilter<"JobMelaBeneficiary"> | string | null
     twelfth_board?: StringNullableFilter<"JobMelaBeneficiary"> | string | null
     education_stream?: StringNullableFilter<"JobMelaBeneficiary"> | string | null
+    work_experience?: StringNullableFilter<"JobMelaBeneficiary"> | string | null
     other_stream?: StringNullableFilter<"JobMelaBeneficiary"> | string | null
     areas_of_interest?: StringNullableFilter<"JobMelaBeneficiary"> | string | null
     specific_skills?: StringNullableFilter<"JobMelaBeneficiary"> | string | null
@@ -2387,6 +2547,16 @@ export namespace Prisma {
     has_diploma?: BoolNullableFilter<"JobMelaBeneficiary"> | boolean | null
     other_iti_trade?: StringNullableFilter<"JobMelaBeneficiary"> | string | null
     other_diploma_stream?: StringNullableFilter<"JobMelaBeneficiary"> | string | null
+    has_experience?: BoolNullableFilter<"JobMelaBeneficiary"> | boolean | null
+    currently_working?: BoolNullableFilter<"JobMelaBeneficiary"> | boolean | null
+    experience_company_name?: StringNullableFilter<"JobMelaBeneficiary"> | string | null
+    experience_years?: StringNullableFilter<"JobMelaBeneficiary"> | string | null
+    current_company_name?: StringNullableFilter<"JobMelaBeneficiary"> | string | null
+    current_year_of_joining?: StringNullableFilter<"JobMelaBeneficiary"> | string | null
+    has_appointment_letter?: BoolNullableFilter<"JobMelaBeneficiary"> | boolean | null
+    has_salary_slip?: BoolNullableFilter<"JobMelaBeneficiary"> | boolean | null
+    has_relieving_letter?: BoolNullableFilter<"JobMelaBeneficiary"> | boolean | null
+    all_data_verified?: BoolNullableFilter<"JobMelaBeneficiary"> | boolean | null
     created_at?: DateTimeFilter<"JobMelaBeneficiary"> | Date | string
   }, "id" | "registration_number">
 
@@ -2408,6 +2578,7 @@ export namespace Prisma {
     tenth_board?: SortOrderInput | SortOrder
     twelfth_board?: SortOrderInput | SortOrder
     education_stream?: SortOrderInput | SortOrder
+    work_experience?: SortOrderInput | SortOrder
     other_stream?: SortOrderInput | SortOrder
     areas_of_interest?: SortOrderInput | SortOrder
     specific_skills?: SortOrderInput | SortOrder
@@ -2426,6 +2597,16 @@ export namespace Prisma {
     has_diploma?: SortOrderInput | SortOrder
     other_iti_trade?: SortOrderInput | SortOrder
     other_diploma_stream?: SortOrderInput | SortOrder
+    has_experience?: SortOrderInput | SortOrder
+    currently_working?: SortOrderInput | SortOrder
+    experience_company_name?: SortOrderInput | SortOrder
+    experience_years?: SortOrderInput | SortOrder
+    current_company_name?: SortOrderInput | SortOrder
+    current_year_of_joining?: SortOrderInput | SortOrder
+    has_appointment_letter?: SortOrderInput | SortOrder
+    has_salary_slip?: SortOrderInput | SortOrder
+    has_relieving_letter?: SortOrderInput | SortOrder
+    all_data_verified?: SortOrderInput | SortOrder
     created_at?: SortOrder
     _count?: JobMelaBeneficiaryCountOrderByAggregateInput
     _avg?: JobMelaBeneficiaryAvgOrderByAggregateInput
@@ -2455,6 +2636,7 @@ export namespace Prisma {
     tenth_board?: StringNullableWithAggregatesFilter<"JobMelaBeneficiary"> | string | null
     twelfth_board?: StringNullableWithAggregatesFilter<"JobMelaBeneficiary"> | string | null
     education_stream?: StringNullableWithAggregatesFilter<"JobMelaBeneficiary"> | string | null
+    work_experience?: StringNullableWithAggregatesFilter<"JobMelaBeneficiary"> | string | null
     other_stream?: StringNullableWithAggregatesFilter<"JobMelaBeneficiary"> | string | null
     areas_of_interest?: StringNullableWithAggregatesFilter<"JobMelaBeneficiary"> | string | null
     specific_skills?: StringNullableWithAggregatesFilter<"JobMelaBeneficiary"> | string | null
@@ -2473,6 +2655,16 @@ export namespace Prisma {
     has_diploma?: BoolNullableWithAggregatesFilter<"JobMelaBeneficiary"> | boolean | null
     other_iti_trade?: StringNullableWithAggregatesFilter<"JobMelaBeneficiary"> | string | null
     other_diploma_stream?: StringNullableWithAggregatesFilter<"JobMelaBeneficiary"> | string | null
+    has_experience?: BoolNullableWithAggregatesFilter<"JobMelaBeneficiary"> | boolean | null
+    currently_working?: BoolNullableWithAggregatesFilter<"JobMelaBeneficiary"> | boolean | null
+    experience_company_name?: StringNullableWithAggregatesFilter<"JobMelaBeneficiary"> | string | null
+    experience_years?: StringNullableWithAggregatesFilter<"JobMelaBeneficiary"> | string | null
+    current_company_name?: StringNullableWithAggregatesFilter<"JobMelaBeneficiary"> | string | null
+    current_year_of_joining?: StringNullableWithAggregatesFilter<"JobMelaBeneficiary"> | string | null
+    has_appointment_letter?: BoolNullableWithAggregatesFilter<"JobMelaBeneficiary"> | boolean | null
+    has_salary_slip?: BoolNullableWithAggregatesFilter<"JobMelaBeneficiary"> | boolean | null
+    has_relieving_letter?: BoolNullableWithAggregatesFilter<"JobMelaBeneficiary"> | boolean | null
+    all_data_verified?: BoolNullableWithAggregatesFilter<"JobMelaBeneficiary"> | boolean | null
     created_at?: DateTimeWithAggregatesFilter<"JobMelaBeneficiary"> | Date | string
   }
 
@@ -2493,6 +2685,7 @@ export namespace Prisma {
     tenth_board?: string | null
     twelfth_board?: string | null
     education_stream?: string | null
+    work_experience?: string | null
     other_stream?: string | null
     areas_of_interest?: string | null
     specific_skills?: string | null
@@ -2511,6 +2704,16 @@ export namespace Prisma {
     has_diploma?: boolean | null
     other_iti_trade?: string | null
     other_diploma_stream?: string | null
+    has_experience?: boolean | null
+    currently_working?: boolean | null
+    experience_company_name?: string | null
+    experience_years?: string | null
+    current_company_name?: string | null
+    current_year_of_joining?: string | null
+    has_appointment_letter?: boolean | null
+    has_salary_slip?: boolean | null
+    has_relieving_letter?: boolean | null
+    all_data_verified?: boolean | null
     created_at?: Date | string
   }
 
@@ -2532,6 +2735,7 @@ export namespace Prisma {
     tenth_board?: string | null
     twelfth_board?: string | null
     education_stream?: string | null
+    work_experience?: string | null
     other_stream?: string | null
     areas_of_interest?: string | null
     specific_skills?: string | null
@@ -2550,6 +2754,16 @@ export namespace Prisma {
     has_diploma?: boolean | null
     other_iti_trade?: string | null
     other_diploma_stream?: string | null
+    has_experience?: boolean | null
+    currently_working?: boolean | null
+    experience_company_name?: string | null
+    experience_years?: string | null
+    current_company_name?: string | null
+    current_year_of_joining?: string | null
+    has_appointment_letter?: boolean | null
+    has_salary_slip?: boolean | null
+    has_relieving_letter?: boolean | null
+    all_data_verified?: boolean | null
     created_at?: Date | string
   }
 
@@ -2570,6 +2784,7 @@ export namespace Prisma {
     tenth_board?: NullableStringFieldUpdateOperationsInput | string | null
     twelfth_board?: NullableStringFieldUpdateOperationsInput | string | null
     education_stream?: NullableStringFieldUpdateOperationsInput | string | null
+    work_experience?: NullableStringFieldUpdateOperationsInput | string | null
     other_stream?: NullableStringFieldUpdateOperationsInput | string | null
     areas_of_interest?: NullableStringFieldUpdateOperationsInput | string | null
     specific_skills?: NullableStringFieldUpdateOperationsInput | string | null
@@ -2588,6 +2803,16 @@ export namespace Prisma {
     has_diploma?: NullableBoolFieldUpdateOperationsInput | boolean | null
     other_iti_trade?: NullableStringFieldUpdateOperationsInput | string | null
     other_diploma_stream?: NullableStringFieldUpdateOperationsInput | string | null
+    has_experience?: NullableBoolFieldUpdateOperationsInput | boolean | null
+    currently_working?: NullableBoolFieldUpdateOperationsInput | boolean | null
+    experience_company_name?: NullableStringFieldUpdateOperationsInput | string | null
+    experience_years?: NullableStringFieldUpdateOperationsInput | string | null
+    current_company_name?: NullableStringFieldUpdateOperationsInput | string | null
+    current_year_of_joining?: NullableStringFieldUpdateOperationsInput | string | null
+    has_appointment_letter?: NullableBoolFieldUpdateOperationsInput | boolean | null
+    has_salary_slip?: NullableBoolFieldUpdateOperationsInput | boolean | null
+    has_relieving_letter?: NullableBoolFieldUpdateOperationsInput | boolean | null
+    all_data_verified?: NullableBoolFieldUpdateOperationsInput | boolean | null
     created_at?: DateTimeFieldUpdateOperationsInput | Date | string
   }
 
@@ -2609,6 +2834,7 @@ export namespace Prisma {
     tenth_board?: NullableStringFieldUpdateOperationsInput | string | null
     twelfth_board?: NullableStringFieldUpdateOperationsInput | string | null
     education_stream?: NullableStringFieldUpdateOperationsInput | string | null
+    work_experience?: NullableStringFieldUpdateOperationsInput | string | null
     other_stream?: NullableStringFieldUpdateOperationsInput | string | null
     areas_of_interest?: NullableStringFieldUpdateOperationsInput | string | null
     specific_skills?: NullableStringFieldUpdateOperationsInput | string | null
@@ -2627,6 +2853,16 @@ export namespace Prisma {
     has_diploma?: NullableBoolFieldUpdateOperationsInput | boolean | null
     other_iti_trade?: NullableStringFieldUpdateOperationsInput | string | null
     other_diploma_stream?: NullableStringFieldUpdateOperationsInput | string | null
+    has_experience?: NullableBoolFieldUpdateOperationsInput | boolean | null
+    currently_working?: NullableBoolFieldUpdateOperationsInput | boolean | null
+    experience_company_name?: NullableStringFieldUpdateOperationsInput | string | null
+    experience_years?: NullableStringFieldUpdateOperationsInput | string | null
+    current_company_name?: NullableStringFieldUpdateOperationsInput | string | null
+    current_year_of_joining?: NullableStringFieldUpdateOperationsInput | string | null
+    has_appointment_letter?: NullableBoolFieldUpdateOperationsInput | boolean | null
+    has_salary_slip?: NullableBoolFieldUpdateOperationsInput | boolean | null
+    has_relieving_letter?: NullableBoolFieldUpdateOperationsInput | boolean | null
+    all_data_verified?: NullableBoolFieldUpdateOperationsInput | boolean | null
     created_at?: DateTimeFieldUpdateOperationsInput | Date | string
   }
 
@@ -2648,6 +2884,7 @@ export namespace Prisma {
     tenth_board?: string | null
     twelfth_board?: string | null
     education_stream?: string | null
+    work_experience?: string | null
     other_stream?: string | null
     areas_of_interest?: string | null
     specific_skills?: string | null
@@ -2666,6 +2903,16 @@ export namespace Prisma {
     has_diploma?: boolean | null
     other_iti_trade?: string | null
     other_diploma_stream?: string | null
+    has_experience?: boolean | null
+    currently_working?: boolean | null
+    experience_company_name?: string | null
+    experience_years?: string | null
+    current_company_name?: string | null
+    current_year_of_joining?: string | null
+    has_appointment_letter?: boolean | null
+    has_salary_slip?: boolean | null
+    has_relieving_letter?: boolean | null
+    all_data_verified?: boolean | null
     created_at?: Date | string
   }
 
@@ -2686,6 +2933,7 @@ export namespace Prisma {
     tenth_board?: NullableStringFieldUpdateOperationsInput | string | null
     twelfth_board?: NullableStringFieldUpdateOperationsInput | string | null
     education_stream?: NullableStringFieldUpdateOperationsInput | string | null
+    work_experience?: NullableStringFieldUpdateOperationsInput | string | null
     other_stream?: NullableStringFieldUpdateOperationsInput | string | null
     areas_of_interest?: NullableStringFieldUpdateOperationsInput | string | null
     specific_skills?: NullableStringFieldUpdateOperationsInput | string | null
@@ -2704,6 +2952,16 @@ export namespace Prisma {
     has_diploma?: NullableBoolFieldUpdateOperationsInput | boolean | null
     other_iti_trade?: NullableStringFieldUpdateOperationsInput | string | null
     other_diploma_stream?: NullableStringFieldUpdateOperationsInput | string | null
+    has_experience?: NullableBoolFieldUpdateOperationsInput | boolean | null
+    currently_working?: NullableBoolFieldUpdateOperationsInput | boolean | null
+    experience_company_name?: NullableStringFieldUpdateOperationsInput | string | null
+    experience_years?: NullableStringFieldUpdateOperationsInput | string | null
+    current_company_name?: NullableStringFieldUpdateOperationsInput | string | null
+    current_year_of_joining?: NullableStringFieldUpdateOperationsInput | string | null
+    has_appointment_letter?: NullableBoolFieldUpdateOperationsInput | boolean | null
+    has_salary_slip?: NullableBoolFieldUpdateOperationsInput | boolean | null
+    has_relieving_letter?: NullableBoolFieldUpdateOperationsInput | boolean | null
+    all_data_verified?: NullableBoolFieldUpdateOperationsInput | boolean | null
     created_at?: DateTimeFieldUpdateOperationsInput | Date | string
   }
 
@@ -2725,6 +2983,7 @@ export namespace Prisma {
     tenth_board?: NullableStringFieldUpdateOperationsInput | string | null
     twelfth_board?: NullableStringFieldUpdateOperationsInput | string | null
     education_stream?: NullableStringFieldUpdateOperationsInput | string | null
+    work_experience?: NullableStringFieldUpdateOperationsInput | string | null
     other_stream?: NullableStringFieldUpdateOperationsInput | string | null
     areas_of_interest?: NullableStringFieldUpdateOperationsInput | string | null
     specific_skills?: NullableStringFieldUpdateOperationsInput | string | null
@@ -2743,6 +3002,16 @@ export namespace Prisma {
     has_diploma?: NullableBoolFieldUpdateOperationsInput | boolean | null
     other_iti_trade?: NullableStringFieldUpdateOperationsInput | string | null
     other_diploma_stream?: NullableStringFieldUpdateOperationsInput | string | null
+    has_experience?: NullableBoolFieldUpdateOperationsInput | boolean | null
+    currently_working?: NullableBoolFieldUpdateOperationsInput | boolean | null
+    experience_company_name?: NullableStringFieldUpdateOperationsInput | string | null
+    experience_years?: NullableStringFieldUpdateOperationsInput | string | null
+    current_company_name?: NullableStringFieldUpdateOperationsInput | string | null
+    current_year_of_joining?: NullableStringFieldUpdateOperationsInput | string | null
+    has_appointment_letter?: NullableBoolFieldUpdateOperationsInput | boolean | null
+    has_salary_slip?: NullableBoolFieldUpdateOperationsInput | boolean | null
+    has_relieving_letter?: NullableBoolFieldUpdateOperationsInput | boolean | null
+    all_data_verified?: NullableBoolFieldUpdateOperationsInput | boolean | null
     created_at?: DateTimeFieldUpdateOperationsInput | Date | string
   }
 
@@ -2843,6 +3112,7 @@ export namespace Prisma {
     tenth_board?: SortOrder
     twelfth_board?: SortOrder
     education_stream?: SortOrder
+    work_experience?: SortOrder
     other_stream?: SortOrder
     areas_of_interest?: SortOrder
     specific_skills?: SortOrder
@@ -2861,6 +3131,16 @@ export namespace Prisma {
     has_diploma?: SortOrder
     other_iti_trade?: SortOrder
     other_diploma_stream?: SortOrder
+    has_experience?: SortOrder
+    currently_working?: SortOrder
+    experience_company_name?: SortOrder
+    experience_years?: SortOrder
+    current_company_name?: SortOrder
+    current_year_of_joining?: SortOrder
+    has_appointment_letter?: SortOrder
+    has_salary_slip?: SortOrder
+    has_relieving_letter?: SortOrder
+    all_data_verified?: SortOrder
     created_at?: SortOrder
   }
 
@@ -2886,6 +3166,7 @@ export namespace Prisma {
     tenth_board?: SortOrder
     twelfth_board?: SortOrder
     education_stream?: SortOrder
+    work_experience?: SortOrder
     other_stream?: SortOrder
     areas_of_interest?: SortOrder
     specific_skills?: SortOrder
@@ -2904,6 +3185,16 @@ export namespace Prisma {
     has_diploma?: SortOrder
     other_iti_trade?: SortOrder
     other_diploma_stream?: SortOrder
+    has_experience?: SortOrder
+    currently_working?: SortOrder
+    experience_company_name?: SortOrder
+    experience_years?: SortOrder
+    current_company_name?: SortOrder
+    current_year_of_joining?: SortOrder
+    has_appointment_letter?: SortOrder
+    has_salary_slip?: SortOrder
+    has_relieving_letter?: SortOrder
+    all_data_verified?: SortOrder
     created_at?: SortOrder
   }
 
@@ -2925,6 +3216,7 @@ export namespace Prisma {
     tenth_board?: SortOrder
     twelfth_board?: SortOrder
     education_stream?: SortOrder
+    work_experience?: SortOrder
     other_stream?: SortOrder
     areas_of_interest?: SortOrder
     specific_skills?: SortOrder
@@ -2943,6 +3235,16 @@ export namespace Prisma {
     has_diploma?: SortOrder
     other_iti_trade?: SortOrder
     other_diploma_stream?: SortOrder
+    has_experience?: SortOrder
+    currently_working?: SortOrder
+    experience_company_name?: SortOrder
+    experience_years?: SortOrder
+    current_company_name?: SortOrder
+    current_year_of_joining?: SortOrder
+    has_appointment_letter?: SortOrder
+    has_salary_slip?: SortOrder
+    has_relieving_letter?: SortOrder
+    all_data_verified?: SortOrder
     created_at?: SortOrder
   }
 

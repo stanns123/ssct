@@ -138,6 +138,7 @@ exports.Prisma.JobMelaBeneficiaryScalarFieldEnum = {
   tenth_board: 'tenth_board',
   twelfth_board: 'twelfth_board',
   education_stream: 'education_stream',
+  work_experience: 'work_experience',
   other_stream: 'other_stream',
   areas_of_interest: 'areas_of_interest',
   specific_skills: 'specific_skills',
@@ -156,6 +157,16 @@ exports.Prisma.JobMelaBeneficiaryScalarFieldEnum = {
   has_diploma: 'has_diploma',
   other_iti_trade: 'other_iti_trade',
   other_diploma_stream: 'other_diploma_stream',
+  has_experience: 'has_experience',
+  currently_working: 'currently_working',
+  experience_company_name: 'experience_company_name',
+  experience_years: 'experience_years',
+  current_company_name: 'current_company_name',
+  current_year_of_joining: 'current_year_of_joining',
+  has_appointment_letter: 'has_appointment_letter',
+  has_salary_slip: 'has_salary_slip',
+  has_relieving_letter: 'has_relieving_letter',
+  all_data_verified: 'all_data_verified',
   created_at: 'created_at'
 };
 
@@ -185,6 +196,7 @@ exports.Prisma.JobMelaBeneficiaryOrderByRelevanceFieldEnum = {
   tenth_board: 'tenth_board',
   twelfth_board: 'twelfth_board',
   education_stream: 'education_stream',
+  work_experience: 'work_experience',
   other_stream: 'other_stream',
   areas_of_interest: 'areas_of_interest',
   specific_skills: 'specific_skills',
@@ -196,7 +208,11 @@ exports.Prisma.JobMelaBeneficiaryOrderByRelevanceFieldEnum = {
   prior_experience: 'prior_experience',
   additional_info: 'additional_info',
   other_iti_trade: 'other_iti_trade',
-  other_diploma_stream: 'other_diploma_stream'
+  other_diploma_stream: 'other_diploma_stream',
+  experience_company_name: 'experience_company_name',
+  experience_years: 'experience_years',
+  current_company_name: 'current_company_name',
+  current_year_of_joining: 'current_year_of_joining'
 };
 
 
