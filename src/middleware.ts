@@ -23,13 +23,9 @@ const authRoutes = [
 
 // Define role-based route permissions
 const roleBasedRoutes: Record<string, string[]> = {
-  "/dashboard/users": ["admin"],
-  "/dashboard/users/add": ["admin"],
+  "/dashboard/users": ["Admin"],
+  "/dashboard/users/add": ["Admin"],
   "/dashboard/products/category": ["admin" , "manager"],
-  "/dashboard/products/add": ["admin" , "manager"],
-  "/dashboard/products/edit": ["admin" , "manager"],
-  "/dashboard/products/discounts": ["admin" , "manager"],
-  "/dashboard/customer": ["admin" , "manager"],
 };
 
 export async function middleware(request: Request) {

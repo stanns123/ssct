@@ -21,6 +21,7 @@ export async function GET(req: NextRequest, context: RouteContext) {
     }
     return NextResponse.json(beneficiary);
   } catch (error) {
+    console.error('Error fetching beneficiary details:', error);
     return NextResponse.json({ error: 'Failed to fetch beneficiary details', details: String(error) }, { status: 500 });
   }
 }
