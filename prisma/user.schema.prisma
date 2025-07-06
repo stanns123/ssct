@@ -1,0 +1,23 @@
+datasource db {
+  provider = "mysql"
+  url      = env("USER_DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+  output   = "./generated/user"
+}
+
+model User {
+  id        String   @id @default(uuid())
+  name      String 
+  phone     String   @unique
+  email     String   @unique
+  role      String
+  password  String
+  createdBy String
+  resetToken       String?
+  resetTokenExpiry DateTime?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
